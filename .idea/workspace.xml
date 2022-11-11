@@ -1,15 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b581b20c-8755-4447-8fce-dc9e3caf861a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Bag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Facebook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/HamburgerIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Instagram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/SearchIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Twitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Wishlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Youtube.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/hamburger-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/search-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/wishlist.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/MenuItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/constants/endpoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/icons-mapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2HJJODI6ztfxumtBczromhqZrdZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/app" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mateo\Desktop\nextjs-wc-api\src\components" />
+      <recent name="C:\Users\mateo\Desktop\nextjs-wc-api\src\components\layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b581b20c-8755-4447-8fce-dc9e3caf861a" name="Default Changelist" comment="" />
+      <created>1668009265985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668009265985</updated>
+      <workItem from="1668009267147" duration="3199000" />
+      <workItem from="1668077586782" duration="13751000" />
+      <workItem from="1668103180116" duration="75000" />
+      <workItem from="1668103268646" duration="25000" />
+      <workItem from="1668103307754" duration="101000" />
+      <workItem from="1668103427913" duration="177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="67" key="#ESLint" timestamp="1668080675882">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="67" key="#ESLint/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668080675882" />
+    <state x="361" y="67" key="#Plugins" timestamp="1668103293329">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="67" key="#Plugins/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103293329" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1667999883991">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999883991" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668008572394">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668008572394" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1667999556513">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999556513" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1667999556513">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999556513" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1667999556513">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999556513" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1667999556513">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999556513" />
+    <state x="277" y="51" key="SettingsEditor" timestamp="1668103408202">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="51" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103408202" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1668103433609">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103433609" />
+    <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1" timestamp="1668102841389">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668102841389" />
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668103380681">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103380681" />
   </component>
 </project>
