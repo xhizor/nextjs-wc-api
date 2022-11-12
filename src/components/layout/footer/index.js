@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import MenuItem from '../../../models/MenuItem';
 import {getIconComponentByName} from '../../../utils/icons-mapper';
+import {sanitize} from '../../../utils/functions';
 
 /**
  * Footer component.
@@ -28,7 +29,7 @@ const Footer = ({data}) => {
                   menuItems.map(({id, link, title}) => (
                     <li key={id}>
                       <Link href={link}
-                            dangerouslySetInnerHTML={{__html: title}}/>
+                            dangerouslySetInnerHTML={{__html: sanitize(title)}}/>
                     </li>
                   ))
                 }
@@ -46,6 +47,7 @@ const Footer = ({data}) => {
                 socialLinks?.length && socialLinks.map(socialLink => (
                   <li key={socialLink?.iconName} className="ml-4">
                     <a href={socialLink?.iconUrl ?? '/'} target="_blank"
+                       rel="noreferrer"
                        title={socialLink?.iconName}>
                       {getIconComponentByName(socialLink?.iconName)}
                       <span className="sr-only">{socialLink?.iconName}</span>
