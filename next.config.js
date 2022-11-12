@@ -1,4 +1,5 @@
 const path = require('path');
+const allowedImageWordpressDomain = new URL(process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL).hostname;
 
 module.exports = {
   trailingSlash: false,
@@ -12,5 +13,8 @@ module.exports = {
   },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
-  }
+  },
+  images: {
+    domains: [allowedImageWordpressDomain]
+  },
 };

@@ -2,43 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b581b20c-8755-4447-8fce-dc9e3caf861a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/Bag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/Facebook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/HamburgerIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/Instagram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/SearchIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/Twitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/Wishlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/Youtube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/hamburger-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/search-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/wishlist.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/MenuItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/constants/endpoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/icons-mapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/get-products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/image/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/products/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/constants/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants/endpoints.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +68,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tailwind.config.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,7 +76,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.github.jsbeckr.tailwindidea.ProjectSettingsConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -137,6 +118,8 @@
       <workItem from="1668103268646" duration="25000" />
       <workItem from="1668103307754" duration="101000" />
       <workItem from="1668103427913" duration="177000" />
+      <workItem from="1668180088812" duration="3447000" />
+      <workItem from="1668241981917" duration="7294000" />
     </task>
     <servers />
   </component>
@@ -165,14 +148,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="67" key="#Plugins/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103293329" />
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1667999883991">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1668243134970">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999883991" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668008572394">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668243134970" />
+    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1668265143705">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668008572394" />
+    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668265143705" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1668265133487">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668265133487" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668180139969">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668180139969" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1667999556513">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -189,21 +180,25 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999556513" />
-    <state x="277" y="51" key="SettingsEditor" timestamp="1668103408202">
+    <state x="277" y="51" key="SettingsEditor" timestamp="1668180141702">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="277" y="51" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103408202" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1668103433609">
+    <state x="277" y="51" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668180141702" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1668264529051">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103433609" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668264529051" />
     <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1" timestamp="1668102841389">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668102841389" />
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668103380681">
+    <state x="463" y="140" width="609" height="536" key="find.popup" timestamp="1668244216322">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103380681" />
+    <state x="463" y="140" width="609" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668244216322" />
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668265187144">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668265187144" />
   </component>
 </project>

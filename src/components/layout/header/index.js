@@ -6,6 +6,8 @@ import MenuItem from '../../../models/MenuItem';
 import {HamburgerIcon, Wishlist} from '../../icons';
 import User from '../../icons/User';
 import Bag from '../../icons/Bag';
+import {sanitize} from '../../../utils/functions';
+import Image from '../../image';
 
 /**
  * Header component.
@@ -36,9 +38,9 @@ const Header = ({data}) => {
             className="container mx-auto flex items-center justify-between flex-wrap">
             <div className="flex items-center flex-shrink-0 text-black mr-20">
               <Link href="/">
-                <img src={siteLogoUrl} alt={`${siteTitle} logo`}
-                     className="mr-2"
-                     width={70} height={70}/>
+                <Image sourceUrl={siteLogoUrl} altText={`${siteTitle} logo`}
+                       className="mr-2"
+                       width={70} height={70}/>
               </Link>
               <span>
                 <Link href="/" className="font-semibold text-xl tracking-tight">
@@ -64,7 +66,7 @@ const Header = ({data}) => {
                     <Link key={id}
                           href={link}
                           className='block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10'
-                          dangerouslySetInnerHTML={{__html: title}}/>
+                          dangerouslySetInnerHTML={{__html: sanitize(title)}}/>
                   ))
                 }
               </div>
