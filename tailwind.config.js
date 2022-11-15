@@ -5,7 +5,11 @@ module.exports = {
     './pages/**/*.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '9px': '9px'
+      }
+    },
   },
   variants: {},
   plugins: [
