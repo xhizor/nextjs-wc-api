@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useContext, useState} from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -8,6 +8,7 @@ import User from '../../icons/User';
 import Bag from '../../icons/Bag';
 import {sanitize} from '../../../utils/functions';
 import Image from '../../image';
+import {AppContext} from '../../../context';
 
 /**
  * Header component.
@@ -16,6 +17,7 @@ import Image from '../../image';
  * @constructor
  */
 const Header = ({data}) => {
+  const [cart, setCart] = useContext(AppContext);
   const {headerMenuItems, siteDescription, siteLogoUrl, siteTitle, favIcon} = data || {};
   const menuItems = headerMenuItems?.length
     ? headerMenuItems.map(headerMenuItem => new MenuItem(headerMenuItem))
@@ -85,13 +87,17 @@ const Header = ({data}) => {
 										Wishlist
 									</span>
                 </a>
-                <a href="#"
-                   className="flex mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
-									<span className="flex flex-row items-center lg:flex-col">
+                <Link href="/cart"
+                      className="flex mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
+              		<span className="flex flex-row items-center lg:flex-col">
                     <Bag className="mr-1 lg:mr-0"/>
-                    Bag
+                    <span className="ml-1">
+                      Bag{cart?.totalQuantity
+                      ? <span className="font-bold"> ({cart?.totalQuantity})</span>
+                      : null}
+                    </span>
 									</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

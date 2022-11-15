@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b581b20c-8755-4447-8fce-dc9e3caf861a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/api/get-products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/image/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/constants/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants/endpoints.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tailwind.config.js" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -120,7 +104,24 @@
       <workItem from="1668103427913" duration="177000" />
       <workItem from="1668180088812" duration="3447000" />
       <workItem from="1668241981917" duration="7294000" />
+      <workItem from="1668427735263" duration="9397000" />
+      <workItem from="1668503815833" duration="5460000" />
     </task>
+    <task id="LOCAL-00001" summary="Added: add to cart functionality, global app context">
+      <created>1668513352716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668513352716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added: add to cart functionality, global app context">
+      <created>1668513555824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668513555824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +140,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added: add to cart functionality, global app context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: add to cart functionality, global app context" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="67" key="#ESLint" timestamp="1668080675882">
       <screen x="0" y="0" width="1536" height="816" />
@@ -148,18 +155,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="67" key="#Plugins/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668103293329" />
+    <state x="540" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1668432763877">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="540" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668432763877" />
     <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1668243134970">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668243134970" />
-    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1668265143705">
+    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1668513555426">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668265143705" />
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1668265133487">
+    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668513555426" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1668511942524">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668265133487" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668511942524" />
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668180139969">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -184,21 +195,25 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="51" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668180141702" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1668264529051">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1668513336502">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668264529051" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668513336502" />
     <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1" timestamp="1668102841389">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668102841389" />
-    <state x="463" y="140" width="609" height="536" key="find.popup" timestamp="1668244216322">
+    <state x="463" y="140" width="609" height="536" key="find.popup" timestamp="1668506534449">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="463" y="140" width="609" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668244216322" />
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668265187144">
+    <state x="463" y="140" width="609" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668506534449" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1668432920889">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668265187144" />
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668432920889" />
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668509656542">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668509656542" />
   </component>
 </project>

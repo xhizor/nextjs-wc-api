@@ -1,10 +1,9 @@
 import axios from 'axios'
 
-import Header from '../src/components/layout/header';
-import Footer from '../src/components/layout/footer';
 import Products from '../src/components/products';
 import {HEADER_FOOTER_ITEMS_URL} from '../src/utils/constants/endpoints';
 import {getProducts} from '../src/data/products';
+import Layout from '../src/components/layout';
 
 /**
  * Index script.
@@ -13,16 +12,10 @@ import {getProducts} from '../src/data/products';
  * @constructor
  */
 export default function Home({headerFooterData, products}) {
-  const {header, footer} = headerFooterData;
-
   return (
-    <>
-      <Header data={header}/>
-      <main className="container mx-auto py-4 overflow-hidden">
-        <Products products={products}/>
-      </main>
-      <Footer data={footer}/>
-    </>
+    <Layout headerFooterData={headerFooterData}>
+      <Products products={products}/>
+    </Layout>
   )
 }
 
@@ -39,6 +32,6 @@ export async function getStaticProps() {
       headerFooterData: headerFooterData?.data ?? {},
       products: products ?? {}
     },
-    revalidate: 10
+    revalidate: 1
   }
 }

@@ -9,6 +9,7 @@ class Product {
     this.link = wcProduct?.permalink ?? '/';
     this.images = wcProduct?.images ?? [];
     this.price = wcProduct?.price_html ?? '';
+    this.type = wcProduct?.type ?? '';
   }
 }
 
