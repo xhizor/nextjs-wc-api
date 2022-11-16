@@ -1,7 +1,7 @@
 import {getCartSession} from './session';
 
 /**
- * Gets the cart config for the axios reqest config.
+ * Gets the cart config for the axios request config.
  *
  * @returns {{headers: {'X-Headless-CMS': boolean}}}
  */

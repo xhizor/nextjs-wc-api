@@ -18,7 +18,7 @@ import {AppContext} from '../../../context';
  */
 const Header = ({data}) => {
   const [cart, setCart] = useContext(AppContext);
-  const {headerMenuItems, siteDescription, siteLogoUrl, siteTitle, favIcon} = data || {};
+  const {headerMenuItems, siteDescription, siteLogoUrl, siteTitle, favicon} = data || {};
   const menuItems = headerMenuItems?.length
     ? headerMenuItems.map(headerMenuItem => new MenuItem(headerMenuItem))
     : null;
@@ -32,7 +32,7 @@ const Header = ({data}) => {
     <>
       <Head>
         <title>{siteTitle}</title>
-        <link rel="icon" href={favIcon}/>
+        <link rel="icon" href={favicon || '/favicon.ico'}/>
       </Head>
       <div className="header">
         <nav className="bg-white p-4">
@@ -51,7 +51,7 @@ const Header = ({data}) => {
                 {siteDescription && <p>{siteDescription}</p>}
               </span>
             </div>
-            <div className="block lg:hidden">
+            <div className="block lg:hidden pt-4">
               <button
                 className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-black hover:border-black"
                 onClick={toggleMenuVisibility}
@@ -93,7 +93,7 @@ const Header = ({data}) => {
                     <Bag className="mr-1 lg:mr-0"/>
                     <span className="ml-1">
                       Bag{cart?.totalQuantity
-                      ? <span className="font-bold"> ({cart?.totalQuantity})</span>
+                      ? <span> ({cart?.totalQuantity})</span>
                       : null}
                     </span>
 									</span>

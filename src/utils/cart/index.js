@@ -42,20 +42,90 @@ export const addToCart = async (productId, qty = 1, setCart, setIsAddedToCart, s
 };
 
 /**
+ * Updates the cart for a given cart key.
+ *
+ * @param cartKey
+ * @param quantity
+ * @param setCart
+ * @param setUpdatingProduct
+ * @returns {Promise<void>}
+ */
+export const updateCart = async (cartKey, quantity = 1, setCart, setUpdatingProduct) => {
+  const cartConfig = getCartConfig();
+  setUpdatingProduct(true);
+
+  const data = {
+    quantity
+  };
+  try {
+    await axios.put(`${WC_CART_URL}${cartKey}`, data, cartConfig);
+    setCartData(setCart, setUpdatingProduct);
+  } catch (err) {
+    console.log('err', err);
+    setUpdatingProduct(false);
+  }
+};
+
+/**
  * Updates the cart data in the app store.
  *
  * @param {Function} setCart
+ * @param {Function} setProcessing
  * @returns {Promise<void>}
  */
-export const setCartData = async (setCart) => {
+export const setCartData = async (setCart, setProcessing = () => {
+}) => {
   const cartConfig = getCartConfig();
 
   try {
     const response = await axios.get(WC_CART_URL, cartConfig);
     const formattedCartData = getFormattedCartData(response?.data || []);
     setCart(formattedCartData);
+    setProcessing(false);
   } catch (err) {
     console.log('err', err);
+    setProcessing(false);
+  }
+};
+
+/**
+ * Deletes the cart item by a given cart key.
+ *
+ * @param cartKey
+ * @param setCart
+ * @param setDeleteCartItemProcessing
+ * @returns {Promise<void>}
+ */
+export const deleteCartItem = async (cartKey, setCart, setDeleteCartItemProcessing) => {
+  const cartConfig = getCartConfig();
+  setDeleteCartItemProcessing(true);
+
+  try {
+    await axios.delete(`${WC_CART_URL}${cartKey}`, cartConfig);
+    setCartData(setCart, setDeleteCartItemProcessing);
+  } catch (err) {
+    console.log('err', err);
+    setDeleteCartItemProcessing(false);
+  }
+};
+
+/**
+ * Clear the cart data.
+ *
+ * @param setCart
+ * @param setClearCartProcessing
+ * @returns {Promise<void>}
+ */
+export const clearCart = async (setCart, setClearCartProcessing) => {
+  const cartConfig = getCartConfig();
+  setClearCartProcessing(true);
+
+  try {
+    await axios.delete(WC_CART_URL, cartConfig);
+    setCartData(setCart, setClearCartProcessing);
+  } catch (err) {
+    console.log('err', err);
+    setClearCartProcessing(false);
   }
 };
 
