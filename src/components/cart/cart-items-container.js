@@ -67,7 +67,7 @@ const CartItemsContainer = () => {
               <Link href="/checkout">
                 <button
                   className="text-white duration-500 bg-brand-orange hover:bg-brand-royal-blue focus:ring-4 focus:text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900">
-                  <span>Proceed to Checkout</span>
+                  <span>Proceed to checkout</span>
                   <i className="fas fa-long-arrow-alt-right"/>
                 </button>
               </Link>
