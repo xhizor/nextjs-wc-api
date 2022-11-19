@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b581b20c-8755-4447-8fce-dc9e3caf861a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/cart-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart/cart-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart/cart-items-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/checkout-cart-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/checkout-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/abbreviation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/country-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/state-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/order-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/payment-methods/payment-method-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/payment-methods/payment-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout/user-info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/ArrowDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/checkout/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/cart/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/cart/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/cart/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart/cart-items-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/cart-items-container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Bag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Bag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Facebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Facebook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/HamburgerIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/HamburgerIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Instagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Instagram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/SearchIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/SearchIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Twitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Twitter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Wishlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Wishlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Youtube.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Youtube.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/constants/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants/endpoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +93,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mateo\Desktop\nextjs-wc-api\src\components\checkout\payment-methods" />
       <recent name="C:\Users\mateo\Desktop\nextjs-wc-api\src\components" />
       <recent name="C:\Users\mateo\Desktop\nextjs-wc-api\src\components\layout" />
     </key>
@@ -119,6 +137,12 @@
       <workItem from="1668503815833" duration="5460000" />
       <workItem from="1668527796977" duration="5930000" />
       <workItem from="1668592317990" duration="8131000" />
+      <workItem from="1668606604793" duration="5009000" />
+      <workItem from="1668684422987" duration="7483000" />
+      <workItem from="1668775847311" duration="5622000" />
+      <workItem from="1668786483320" duration="4001000" />
+      <workItem from="1668796662709" duration="617000" />
+      <workItem from="1668870867515" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="Added: add to cart functionality, global app context">
       <created>1668513352716</created>
@@ -184,10 +208,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668603587335" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668180139969">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668685131129">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668180139969" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668685131129" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1667999556513">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -212,10 +236,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="51" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668180141702" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1668598932183">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1668796516140">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668535599258" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668796516140" />
     <state width="498" height="446" key="SwitcherDM/0.0.1536.816@0.0.1536.816" timestamp="1668598932183" />
     <state x="578" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1668595923564">
       <screen x="0" y="0" width="1536" height="816" />
@@ -226,17 +250,17 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668102841389" />
-    <state x="463" y="140" width="611" height="536" key="find.popup" timestamp="1668534100223">
+    <state x="463" y="140" width="611" height="536" key="find.popup" timestamp="1668871188363">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="463" y="140" width="611" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668534100223" />
-    <state x="425" y="185" key="run.anything.popup" timestamp="1668432920889">
+    <state x="463" y="140" width="611" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668871188363" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1668795721964">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="425" y="185" key="run.anything.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668432920889" />
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668509656542">
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668795721964" />
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668785646027">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668509656542" />
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668785646027" />
   </component>
 </project>
