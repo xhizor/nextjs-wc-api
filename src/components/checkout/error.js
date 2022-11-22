@@ -9,7 +9,7 @@
 const Error = ({errors, fieldName}) => {
   return (
     errors && errors.hasOwnProperty(fieldName)
-      ? <div className="d-block text-red-500">{errors[fieldName]}</div>
+      ? <div className="d-block text-red-600 text-sm">{errors[fieldName]}</div>
       : null
   )
 };

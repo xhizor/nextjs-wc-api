@@ -14,10 +14,6 @@ const PAYMENT_METHODS = [
     value: 'bacs'
   },
   {
-    name: 'PayPal',
-    value: 'paypal'
-  },
-  {
     name: 'Check Payments',
     value: 'cheque'
   },
@@ -32,10 +28,6 @@ const PAYMENT_METHODS = [
   {
     name: 'CC Avenue',
     value: 'ccavenue'
-  },
-  {
-    name: 'Stripe',
-    value: 'stripe'
   }
 ];
 

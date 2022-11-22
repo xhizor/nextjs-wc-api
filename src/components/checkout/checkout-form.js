@@ -5,11 +5,15 @@ import {AppContext} from '../../context';
 import UserInfo from './user-info';
 import {
   handleBillingDifferentThanShipping,
+  handlePaymentCheckout,
   setCountryStates
 } from '../../utils/checkout';
 import Checkbox from './form/checkbox';
 import OrderDetails from './order-details';
 import PaymentMethods from './payment-methods/payment-methods';
+import {
+  validateAndGetSanitizedFormData
+} from '../../validator/checkout-validator';
 
 /**
  * Default user info.
@@ -48,8 +52,6 @@ const CheckoutForm = ({countries}) => {
     shipping: {
       ...defaultUserInfo
     },
-    createAccount: false,
-    orderNotes: '',
     billingDifferentThanShipping: false,
     paymentMethod: 'bacs'
   };
@@ -64,18 +66,54 @@ const CheckoutForm = ({countries}) => {
   const [isOrderProcessing, setIsOrderProcessing] = useState(false);
   const [createdOrderData, setCreatedOrderData] = useState({});
 
-  const onFormSubmit = (e) => {
-    e.preventDefault();
-  };
-
   /**
+   * Handles the form submit.
+   * Makes create order API request if form is valid.
+   * Redirects the user to returned order payment url.
    *
-   * @param input
-   * @param setInput
-   * @param target
+   * @param e
    */
-  const createAccount = (input, setInput, target) => {
+  const onFormSubmit = async (e) => {
+    e.preventDefault();
 
+    const billingValidationResult = inputData?.billingDifferentThanShipping
+      ? validateAndGetSanitizedFormData(inputData?.billing, billingStates?.length)
+      : {
+        errors: null,
+        isValid: true
+      };
+    const shippingValidationResult = validateAndGetSanitizedFormData(inputData?.shipping, shippingStates?.length);
+
+    setInputData({
+      ...inputData,
+      billing: {
+        ...inputData.billing,
+        errors: billingValidationResult.errors
+      },
+      shipping: {
+        ...inputData.shipping,
+        errors: shippingValidationResult.errors
+      }
+    });
+
+    const isValidForm = billingValidationResult.isValid && shippingValidationResult.isValid;
+    if (!isValidForm) return null;
+
+    const createdOrderData = await handlePaymentCheckout(
+      inputData,
+      cart?.cartItems,
+      setError,
+      setCart,
+      setIsOrderProcessing,
+      setCreatedOrderData
+    );
+
+    const {orderId} = createdOrderData;
+    if (orderId) {
+      alert(`Order #${orderId} successfully placed!`);
+    }
+
+    setError(null);
   };
 
   /**
@@ -89,9 +127,7 @@ const CheckoutForm = ({countries}) => {
   const handleOnChange = async (e, isShipping = false, isBillingOrShipping = false) => {
     const {target} = e || {};
 
-    if (target.name === 'createAccount') {
-      createAccount(inputData, setInputData, target);
-    } else if (target.name === 'billingDifferentThanShipping') {
+    if (target.name === 'billingDifferentThanShipping') {
       handleBillingDifferentThanShipping(inputData, setInputData, target);
     } else if (isBillingOrShipping) {
       isShipping
@@ -148,7 +184,7 @@ const CheckoutForm = ({countries}) => {
   return (
     <>
       {cart ? (
-        <form className="px-2" onSubmit={onFormSubmit}>
+        <form className="px-2" onSubmit={onFormSubmit} noValidate>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
             <div className="shipping-details">
               <h2 className="text-xl font-medium mb-4">Shipping details</h2>
@@ -202,11 +238,12 @@ const CheckoutForm = ({countries}) => {
                     'bg-purple-500 text-white px-5 py-3 rounded-sm w-auto xl:w-full',
                     {'opacity-50': isOrderProcessing}
                   )}>
-                  Place order
+                  {!isOrderProcessing ? 'Place order' : 'Processing order...'}
                 </button>
               </div>
-              {isOrderProcessing && <p>Processing Order...</p>}
-              {error && <p>Error : {error}. Please try again</p>}
+              {error && <p className="mt-2 text-center">
+                Error : {error}. Please try again
+              </p>}
             </div>
           </div>
         </form>
