@@ -1,5 +1,7 @@
 import axios from 'axios';
 import {WC_STATES_URL} from '../constants/endpoints';
+import {clearCart} from '../cart';
+import {createOrder, getCreateOrderData} from './order';
 
 /**
  * Set the states for selected country.
@@ -58,4 +60,33 @@ export const handleBillingDifferentThanShipping = (input, setInput, target) => {
   };
 
   setInput(newInputDataState);
+};
+
+/**
+ * Handles the payment checkout.
+ *
+ * @param input
+ * @param products
+ * @param setError
+ * @param setCart
+ * @param setIsOrderProcessing
+ * @param setCreatedOrderData
+ * @returns {Promise<{orderId: null, error: string}|null>}
+ */
+export const handlePaymentCheckout = async (input, products, setError, setCart, setIsOrderProcessing, setCreatedOrderData) => {
+  setIsOrderProcessing(true);
+  const orderData = getCreateOrderData(input, products);
+  const customerOrderData = await createOrder(orderData, setError, '');
+  const cartCleared = await clearCart(setCart, () => {
+  });
+  setIsOrderProcessing(false);
+
+  if (!customerOrderData?.orderId || cartCleared?.error) {
+    setError('Clear cart failed');
+    return null;
+  }
+
+  setCreatedOrderData(customerOrderData);
+
+  return customerOrderData;
 };

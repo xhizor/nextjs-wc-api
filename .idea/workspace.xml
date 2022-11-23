@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b581b20c-8755-4447-8fce-dc9e3caf861a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/checkout-cart-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/checkout-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/abbreviation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/country-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/form/state-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/order-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/payment-methods/payment-method-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/payment-methods/payment-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout/user-info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/ArrowDown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/svgs/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/checkout/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart/cart-items-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/cart-items-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Bag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Bag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Facebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Facebook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/HamburgerIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/HamburgerIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Instagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Instagram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/SearchIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/SearchIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Twitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Twitter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Wishlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Wishlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Youtube.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Youtube.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/constants/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants/endpoints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout/checkout-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout/checkout-form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +116,10 @@
       <workItem from="1668786483320" duration="4001000" />
       <workItem from="1668796662709" duration="617000" />
       <workItem from="1668870867515" duration="1005000" />
+      <workItem from="1669020344145" duration="3835000" />
+      <workItem from="1669136928282" duration="4966000" />
+      <workItem from="1669144186347" duration="3546000" />
+      <workItem from="1669226926162" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="Added: add to cart functionality, global app context">
       <created>1668513352716</created>
@@ -158,7 +135,84 @@
       <option name="project" value="LOCAL" />
       <updated>1668513555824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added checkout form validation">
+      <created>1669141568292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669141568292</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added: form submit handler, get order data, create order">
+      <created>1669141619728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669141619728</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added: form submit handler, get order data, create order">
+      <created>1669145604923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669145604923</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added: form submit handler, get order data, create order">
+      <created>1669145860223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669145860223</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added: form submit handler, get order data, create order">
+      <created>1669146216486</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669146216486</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added: form submit handler, get order data, create order">
+      <created>1669146821025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669146821025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added: form submit handler, get order data, create order">
+      <created>1669147349265</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669147349265</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added: form submit handler, get order data, create order">
+      <created>1669147601044</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669147601044</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added: form submit handler, get order data, create order">
+      <created>1669227319869</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669227319869</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added: form submit handler, get order data, create order">
+      <created>1669227652003</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669227652003</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added: form submit handler, get order data, create order">
+      <created>1669227904455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669227904455</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +235,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added: add to cart functionality, global app context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: add to cart functionality, global app context" />
+    <MESSAGE value="Added checkout form validation" />
+    <MESSAGE value="Added: form submit handler, get order data, create order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: form submit handler, get order data, create order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="67" key="#ESLint" timestamp="1668080675882">
@@ -200,14 +256,14 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668243134970" />
-    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1668513555426">
+    <state x="346" y="88" width="976" height="701" key="CommitChangelistDialog2" timestamp="1669227904033">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668513555426" />
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1668603587335">
+    <state x="346" y="88" width="976" height="701" key="CommitChangelistDialog2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1669227904033" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1669147345178">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668603587335" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1669147345178" />
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668685131129">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -228,18 +284,18 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1667999556513" />
-    <state x="574" y="119" key="RollbackChangesDialog" timestamp="1668527805321">
+    <state x="574" y="119" key="RollbackChangesDialog" timestamp="1668872746691">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="119" key="RollbackChangesDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668527805321" />
+    <state x="574" y="119" key="RollbackChangesDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668872746691" />
     <state x="277" y="51" key="SettingsEditor" timestamp="1668180141702">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="51" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668180141702" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1668796516140">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1669228017829">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668796516140" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1669228017829" />
     <state width="498" height="446" key="SwitcherDM/0.0.1536.816@0.0.1536.816" timestamp="1668598932183" />
     <state x="578" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1668595923564">
       <screen x="0" y="0" width="1536" height="816" />
@@ -250,17 +306,17 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2050" y="27" width="1089" height="553" maximized="true" key="dock-window-1/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668102841389" />
-    <state x="463" y="140" width="611" height="536" key="find.popup" timestamp="1668871188363">
+    <state x="463" y="140" width="611" height="536" key="find.popup" timestamp="1669144892478">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="463" y="140" width="611" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668871188363" />
+    <state x="463" y="140" width="611" height="536" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1669144892478" />
     <state x="425" y="185" key="run.anything.popup" timestamp="1668795721964">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="425" y="185" key="run.anything.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668795721964" />
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1668785646027">
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup" timestamp="1669144485058">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1668785646027" />
+    <state x="431" y="137" width="672" height="676" key="search.everywhere.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1669144485058" />
   </component>
 </project>

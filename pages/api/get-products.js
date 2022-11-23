@@ -10,6 +10,7 @@ const api = new WooCommerceRestApi({
 });
 
 /**
+ * Get products API.
  *
  * @param req
  * @param res

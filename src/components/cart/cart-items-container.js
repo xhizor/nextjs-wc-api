@@ -75,8 +75,8 @@ const CartItemsContainer = () => {
           </div>
         </div>
       ) : (
-        <div className="mt-10">
-          <h2 className="font-semibold mb-2">No items in the cart!</h2>
+        <div className="mt-10 ml-3">
+          <h2 className="font-semibold mb-3">No items in the cart!</h2>
           <Link href="/" className="text-white duration-500 bg-brand-orange
             hover:bg-brand-royal-blue font-medium rounded-lg text-sm px-5 py-2.5
             text-center mr-2 mb-2 dark:focus:ring-yellow-900">
